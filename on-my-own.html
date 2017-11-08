@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joshua Ulrich's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/960_12_col .css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-Type" content="text/htm; charset-iso-8859-1">
+  <link rel = "stylesheet" type = "text/css" href = "on-my-own.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!-- About Section -->
+<div id="about">
+	<h1>About</h1>
+	<h3>My name is Joshua Ulrich. I came to <a href="https://www.freecodecamp.org/"target="_blank">FreeCodeCamp</a> to learn something new. Since i have been here and working through the lessons/activities, i have grown to love doing this. I have a analytical type of mind and love seeing <strong>"CODE"</strong> turn into something tangible. I have been doing this now for about a year and have taking a break from here off and on, but have still worked on things on the side.</h3>
+</div>
+<!-- Projects Section -->
+<div id="projests">
+	<h2>Projects</h2>
+	<div class="pictures">
+	<a target="_blank" href="https://codepen.io/Obscureether1/full/dRRXZp">
+      <img src="test-first-project.JPG" alt="First Project" style="max-width:100%;height:auto;"></a>
+      <div class="desc">
+      	<h3>This was my first project that I did. This was a Tribute page to Charles M. Schultz.</h3>
+     </div>
+     </div>	
+
+<div class="pictures">
+	<a target="_blank" href="https://codepen.io/Obscureether1/full/dREpPd">
+      <img src="holding-hands.jpg" alt="Wedding invitation" style="max-width:82.5%;height:auto">
+    </a>
+    <<div class="desc">
+    	 <h3>Instead of spending money on Wedding inventions I decided to Create my own Wedding invitation.</h3>   	
+    </div>
+</div>
+<div class="pictures">
+	<a target="_blank" href="programmer.jpg">
+      <img src="programmer.jpg" alt="More Projects to come!" style="max-width:72%;height:auto;">
+    </a>
+    <div class="desc">
+    	<h3>Just starting out, but come back <br>to <br> see more as they come!</h3>
+    </div>
+</div>
+</div>
+ <!-- Email -->
+ <div class="form">
+ 	<h2 class="content-head is-center">Contact Me!</h2>
+ 	<div class="aside">
+ 		<p>
+ 			I would <em>Love</em><br>to hear from you!</p>
+ 			<p>Please use the <br><em>Contact Form</em><br>to send me a message</p>
+ 	</div>
+ </aside>
+ 	<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbzzAafSBhpsZX8CFBK1ZiOuj076-bFh8eGCxT6C7-ILzgdYLHg/exec"> <!-- change the "action" to your script url -->
+	<div class="pure-group"> 
+		<span class="pure-group" style="display:inline-block">
+    		<label for=name>Name:</label>
+    		<textarea type=text name=foo id=foo  placeholder="First and last name" /></textarea>
+		</span>
+	</div>				
+	<div class="pure-group, message">
+ 			<span class="pure-group" style="display:inline-block">
+    		<label for=message >Message:</label>
+    		<textarea id="message" name="message" rows="10"
+      placeholder="Tell us what's on your mind..."></textarea>
+    	</span>		
+ 	</div>
+ 	<div class="pure-group">
+ 		<span class="pure-group" style="display:inline-block">
+ 		<label for="email">Email:</label>
+      <textarea id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/></textarea>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+		</span>
+		
+ 	</div>
+
+ 		<button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane-o" style="font-size: 24px;color:darkblue" ></i>&nbsp;Send</button>
+
+ 	</form>
+ 	<!-- You can Customise the Thank You Message that people see wehn they Submit the form -->
+ 	<div style="display: none;" id="thankyou_message">
+ 		<h2><em>Thanks</em>for contacting me! I will get back to you soon!</h2>
+ 	</dir>
+ 	</div>
+ <!-- Submit the FORM TO GOOGLE using "AJAX" -->
+ 		<!-- Submit the Form to Google Using "AJAX" -->
+  	<script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js">
+  	
+  </script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+ </div>
+ <div id="footer" class="grid_12">
+	<p>&copy: Copyright Joshua J Ulrich 2017</p>
+ </div>
+</div><!-- .container_12 -->
+</body>
+</html>

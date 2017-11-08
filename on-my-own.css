@@ -1,0 +1,79 @@
+body{
+	text-align: center;
+	/*background:url('https://cdn.pixabay.com/photo/2017/07/31/11/51/laptop-2557615_960_720.jpg'); 
+  	background-size: 110% 150%; */
+}
+
+ 
+#content{
+	margin-top: 40px;
+	padding: 10px 0px 5px 0px;
+	height: 400px;
+}
+.content-head{
+	font-weight: 800;
+	font-family: fantasy;
+	text-transform: uppercase;
+	letter-spacing: 0.1em
+}
+.aside{
+	background:;
+	padding: 0.3em 0.3em
+	border-radius:1px;
+	color: black;
+	text-align: center;
+	font-family: fantasy;
+}
+/* Project section */
+
+.form{
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100&1+29,0.18+35,1+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,183,234,1) 0%, rgba(0,176,223,1) 29%, rgba(0,174,221,0.18) 35%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,183,234,1) 0%,rgba(0,176,223,1) 29%,rgba(0,174,221,0.18) 35%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,183,234,1) 0%,rgba(0,176,223,1) 29%,rgba(0,174,221,0.18) 35%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+;
+	padding: 0.1em 0.2em;
+	border-radius: 35px;
+	margin-bottom: 2em;
+}
+div form{
+	margin:4em;
+}
+textarea {
+  width: 100%;
+}
+}
+.is-center {
+  text-align: center;
+}
+#about{
+	padding-right: 10px;
+	text-align: center;
+}
+#message{
+	width:90%;
+	grid-row: 10;
+}
+#name #email{
+	width:73%;
+}
+.button-xlarge{
+	font-size: 125%;
+	margin:20px;
+}
+.button-success{
+	color:white;
+	border-radius: 4px ;
+	text-shadow: 0 1px 1px rgba(0, 0, 0.2);
+	background: rgb(28, 184, 65);
+
+}
+fieldset{
+	border:0;
+	box-shadow: none;
+}
+#name{
+	margin:0;
+	text-align: center;
+}
